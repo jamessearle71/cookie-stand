@@ -28,20 +28,16 @@
     </div>
 </header>
 <main>
-</div>
-</section>
-<p> Is this the most productive use of your time? ;-]
-    <script>
-    document.write(yourName)();
-    </script>
-</p>
-</div>
+    <p> Is this the most productive use of your time,
+        <script>
+        document.write(user)();
+        </script>? ;p</p>
     <div class="container main-container">
         <section class="hero-section">
             <img class="hero image" src="images/cookie-hero.jpg" alt="Cookie Stand">
             <p class="hero-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ea quis consequuntur culpa, illo architecto eaque cumque! Fugiat repellat distinctio sequi expedita, architecto, neque perspiciatis temporibus similique suscipit iure id!</p>
         </section>    
-        <section class="cookie section">
+        <section class="cookie-section">
             <div class="img-container">
             <img class="cookie-image" src="https://via.placeholder.com/300x150.png?text=Cookie+Stand+ Pic+1" alt="Cookie Stand 1">
             <p class="img-text">Lorem ipsum dolor sit.</p>
@@ -55,18 +51,21 @@
             <p class="img-text">Lorem ipsum dolor sit.</p>
             </div>
         </section>
-        <p>Time you got a watch
+        <p>
             <script>
-            document.write(timeOfDay)();
+              document.write(timeOfDay());
             </script>
-        </p>
-    </div>
+          </p>
+          <span>Thank you for rating our cookies with:</span>
+          <img class="star-img" src="https://freesvg.org/storage/img/thumb/1289679474.png">
+          <script>
+            displayRating()
+          </script>
     <footer class ="footer">
         <div class="container footer-container">
            <p>Website by James Searle</p>
         </div>
     </footer>
-    <script src="top.js"></script>
 </main>
 </body>
 </html>

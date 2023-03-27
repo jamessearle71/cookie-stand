@@ -74,6 +74,7 @@ img {
 img.container{
     width: 30%;
     margin: 1rem;
+    display:inl
 }
 
 li:hover{
@@ -86,6 +87,11 @@ li:hover{
 
 .img-text{
     text-align: center;
+}
+
+.star-img{
+    width: 1rem;
+    display: inline-block
 }
 
 .footer {
