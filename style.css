@@ -3,7 +3,7 @@ box-sizing: border-box;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+font-family: 'Poppins', sans-serif;
 font-size: 1rem;
 font-weight: 400;
 letter-spacing: 0.01em;
@@ -39,9 +39,9 @@ img {
 
     li {
         list-style: none;
-        color: rebeccapurple;
         display: inline-block;
         margin: 0 0.5rem;
+        cursor: pointer;
         transition: 0.5s;
     }
 
@@ -57,11 +57,11 @@ img {
 .hero-img{
     max-height: 300px;
     object-fit: cover;
-    object-position: center;
     margin-bottom: 2rem;
 }
 
 .hero-text{
+    width: 90%;
     max-width: 80ch;
     margin: 0 auto 2rem auto;
 }
@@ -69,6 +69,11 @@ img {
 .cookie-section {
     display: flex;
     flex-direction: column;
+}
+
+img.container{
+    width: 30%;
+    margin: 1rem;
 }
 
 li:hover{
@@ -83,9 +88,13 @@ li:hover{
     text-align: center;
 }
 
-img.container{
-    width: 30%;
-    margin: 1rem;
+.footer {
+    background-color: aquamarine;
+}
+
+.footer-container {
+    text-align: center;
+    padding: 2rem 0;
 }
 
 /* This is the media query that changes styles when the viewport is 700px or more; can be applied in the initial 'header.container' with display: flex; / flex-direction: column; */
@@ -99,8 +108,23 @@ img.container{
     }
 }
 
+h1 {
+    margin: 0;
+}
+
+li {
+    margin: 0 0 0 1rem;
+}
+
+.main-container {
+    padding-top: 2rem;
+}
+
 .cookie-section {
     flex-direction: row;
     justify-content: space-between;
 }
 
+.img-container {
+    width: 30%
+}
