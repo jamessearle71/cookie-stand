@@ -22,3 +22,9 @@ function timeOfDay() {
   console.log(message);
   return message;
 }
+
+let myFavPets = ("Dog", "Cat", "Goldfish")
+
+for(let i = 0; i < myFavPets.length; i++){
+    console.log("I love my pet " + myFavPets[i])
+}
