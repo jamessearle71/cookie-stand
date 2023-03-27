@@ -12,7 +12,6 @@
 <link rel="stylesheet" href="reset.css">
 <link rel="stylesheet" href="style.css">
 <script src="demoscript.js"></script>
-<script src="top.js"></script>
 </head>
 <body>
 <header>
@@ -28,10 +27,11 @@
     </div>
 </header>
 <main>
-    <p> Is this the most productive use of your time,
+    <h2>Hi, 
         <script>
-        document.write(user)();
-        </script>? ;p</p>
+            yourName()
+        </script>
+    </h2>
     <div class="container main-container">
         <section class="hero-section">
             <img class="hero image" src="images/cookie-hero.jpg" alt="Cookie Stand">
@@ -52,15 +52,22 @@
             </div>
         </section>
         <p>
+            <p> Is this the most productive use of your time,
+                <script>
+                document.write(user)();
+                </script>? ;p</p>
             <script>
               document.write(timeOfDay());
             </script>
           </p>
           <span>Thank you for rating our cookies with:</span>
-          <img class="star-img" src="https://freesvg.org/storage/img/thumb/1289679474.png">
-          <script>
+          <img class="star-img" src="images/star.png">
+        <span>
+            
+       
+        <script>
             displayRating()
-          </script>
+          </script> </span>
     <footer class ="footer">
         <div class="container footer-container">
            <p>Website by James Searle</p>
